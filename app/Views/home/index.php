@@ -1,4 +1,9 @@
 <?= $this->extend('layouts/default') ?>
+
+<?= $this->section('title') ?>
+    Bakunya
+<?= $this->endSection() ?>
+
 <?= $this->section('content') ?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
