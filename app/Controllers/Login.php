@@ -8,11 +8,15 @@ class Login extends BaseController
 {
     public function index()
     {
+        if(!empty(session('uid'))) return redirect()->to(base_url('/dashboard'));
+
         return view('login/form');
     }
 
     public function auth()
     {
+        if(!empty(session('uid'))) return redirect()->to(base_url('/dashboard'));
+
         $data = [
             'email' => $this->request->getVar('email'),
             'password' => $this->request->getVar('password'),
