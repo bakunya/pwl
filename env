@@ -31,7 +31,7 @@
 #--------------------------------------------------------------------
 
 # database.default.hostname = localhost
-# database.default.database = perpustakaan
+# database.default.database = 4703_perpustakaan
 # database.default.username = root
 # database.default.password = 
 # database.default.DBDriver = MySQLi

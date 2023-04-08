@@ -29,7 +29,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'perpustakaan',
+        'database' => '4703_perpustakaan',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
